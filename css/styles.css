@@ -20,7 +20,7 @@ h2{                /* u can search for px to rem */
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #afb9c8;
   font-weight:normal;
   padding-bottom: 10px;
 
@@ -208,7 +208,7 @@ text-align: center;
 hr{
   border-width: 10px;
   border-style: dotted;
-  border-color: #a7bbc7;
+  border-color: #a6d6d6;
   border-bottom-style: none;
   height: 0;
   width: 5%;
@@ -220,7 +220,7 @@ hr{
   margin: 40px auto 60px;
 }
 .hrUpsidePp{
-      margin-top: 370px;
+      margin-top: 300px;
 }
 .earth{
   width: 22%;
