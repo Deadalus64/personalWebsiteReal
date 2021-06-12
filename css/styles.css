@@ -1,0 +1,257 @@
+
+body{
+  background-color: #e1e8eb;
+  margin: 0;
+  text-align: center;
+  font-family: Merriweather, sans-serif;
+
+
+}
+h1 {
+    font-size: 90px;
+    margin: 50px auto 0 auto; /* goes in cirlce top,right,bot,left*/
+    font-family: 'Sacramento', cursive;
+    color: #0a81ab;
+
+  /*  line-height: 2; //1 is default*/
+
+}
+h2{                /* u can search for px to rem */
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight:normal;
+  padding-bottom: 10px;
+
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+p{
+     color: #40514E;
+     font-family: 'Montserrat', sans-serif;
+     line-height: 2;
+}
+.intro{
+  width: 30%;
+  margin:auto; /*makes it centered*/
+}
+a{
+  color:#11999E;
+}
+.top-container{
+  background-color: #e1e8eb;
+  position: relative; /*hier komt de cloud*/
+  padding-top: 100px;
+  height: 700px;
+
+
+}
+
+.middle-container{
+  margin: 100px 0;   /*100 for top and bot, 0 for right and left*/
+ background-color: #e1e8eb;
+
+}
+.bottom-container{
+background-color: #66BFBF;
+    padding-top: 40px;
+
+}
+nav  {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+.navA{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  padding-right: 70px;
+}
+.top-box {
+    background-color: #e1e8eb;
+    text-align: center;
+    position: relative;
+    padding: 40px 0 0;
+  }
+.bookmark{
+  color: #eaf6f6;
+  font-size: 12px;
+  margin-bottom: -10px;
+  margin-top: 30px;
+
+}
+.plant{
+  width: 240px;
+  height: 240px;
+  margin-left: 300px;
+  margin-top: -200px;
+  padding-right: 70px;
+
+}
+.plant2{
+  width: 240px;
+  height: 240px;
+  margin-right: 300px;
+  margin-top: -200px;
+  padding-left: 70px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 400px;
+  bottom: 150px;
+  width: 270px;
+  height:270px;
+}
+.cloud3{
+  position: absolute;
+  width: 150px;
+  height:150px;
+  right: 660px;
+  top:860px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 500px;
+  top: 80px;
+  width: 180px;
+  height: 180px;
+  }
+.pp{
+  height: 170px ;
+  width: 170px ;
+  top:30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding-top: 60px;
+
+}
+.jobtitle{
+  font-size: 20px;
+  color:#66BFBF;
+}
+
+.footer-link{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px 20px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+.footer-link:hover{
+  color:#eaf6f6;
+}
+.brush{
+
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-left: auto;
+  margin-right: 30.131px;
+  margin-top: 13px;
+}
+.design{
+        width: 450px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+}
+
+.technicalIcon{
+  width: 20%;
+  height: 20%;
+  float:left;
+  margin-right: auto;
+  margin-top: 13px;
+  margin-left: 30.131px;
+}
+.technical{
+width: 450px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+}
+.contactImg{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 60px;
+}
+
+
+.skill-row{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+
+}
+hr{
+  border-width: 10px;
+  border-style: dotted;
+  border-color: #a7bbc7;
+  border-bottom-style: none;
+  height: 0;
+  width: 5%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.hrUpsidePp{
+      margin-top: 370px;
+}
+.earth{
+  width: 22%;
+  top:30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  position: relative;
+}
+.btn {
+	background:linear-gradient(to bottom, #afb4d1 5%, #7d6b94 100%);
+	background-color:#afb4d1;
+	border-radius:28px;
+	border:1px solid #4e87b5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #000000;
+
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #7d6b94 5%, #afb4d1 100%);
+	background-color:#7d6b94;
+}
+.btn {
+	position:relative;
+	top:1px;
+
+}
